@@ -107,4 +107,8 @@ VALUES
 ('Home Loan','Affordable home loans with flexible EMI options',500000,10000000,8.5,240),
 ('Business Loan','Grow your business with quick funds',100000,5000000,14.0,84),
 ('Education Loan','Fund your education journey',50000,2000000,10.5,120),
+<<<<<<< HEAD
 ('Vehicle Loan','Drive your dream vehicle today',50000,1500000,9.5,84);
+=======
+('Vehicle Loan','Drive your dream vehicle today',50000,1500000,9.5,84);
+>>>>>>> b8897ce91d5c13bf1e13b3bfd509cc15f6e58cb5
