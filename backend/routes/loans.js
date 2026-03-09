@@ -21,7 +21,7 @@ router.get('/contact-info', async (req, res) => {
     const [rows] = await pool.query("SELECT * FROM contact_info WHERE service_type = 'loans' LIMIT 1");
     const info = rows[0] || {
       phone: process.env.SUPPORT_PHONE || '+91 91122 23630',
-      email: process.env.SUPPORT_EMAIL || 'loans@darshanbarter.com',
+      email: process.env.SUPPORT_EMAIL || 'info@dbfincorp.com',
       whatsapp: process.env.SUPPORT_WHATSAPP || '+91 91122 23630',
       description: 'Call or email us for all loan enquiries',
     };
@@ -66,7 +66,7 @@ router.post('/apply', auth, async (req, res) => {
       applicationId: result.insertId,
       contact: {
         phone: process.env.SUPPORT_PHONE || '+91 91122 23630',
-        email: process.env.SUPPORT_EMAIL || 'loans@darshanbarter.com',
+        email: process.env.SUPPORT_EMAIL || 'info@dbfincorp.com',
       },
     });
   } catch (err) {

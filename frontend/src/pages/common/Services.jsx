@@ -284,7 +284,7 @@ const Services = () => {
           <div className="max-w-4xl mx-auto text-center relative z-10">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">Our Loan Services</h1>
             <p className="text-blue-200 text-lg max-w-2xl mx-auto">
-              Flexible loan products designed to meet every financial need — from home purchases to personal expenses.
+              Flexible loan services designed to meet every financial need — from home purchases to personal expenses.
             </p>
           </div>
         </div>
@@ -415,9 +415,9 @@ const Services = () => {
               </a>
 
               {/* Email */}
-              <a href={`mailto:${contact?.email || 'loans@darshanbarter.com'}`}
+              <a href={`mailto:${contact?.email || 'info@dbfincorp.com'}`}
                 className="flex items-center justify-center gap-2 bg-white/20 text-white border border-white/30 px-6 py-3 rounded-xl font-semibold hover:bg-white/30 transition-all">
-                <FiMail /> {contact?.email || 'loans@darshanbarter.com'}
+                <FiMail /> {contact?.email || 'info@dbfincorp.com'}
               </a>
 
             </div>

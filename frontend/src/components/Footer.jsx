@@ -43,7 +43,7 @@ const Footer = () => (
 
         {/* Loan Products */}
         <div>
-          <h4 className="text-white font-semibold mb-4">Loan Products</h4>
+          <h4 className="text-white font-semibold mb-4">Loan Services</h4>
           <ul className="space-y-2 text-sm text-gray-400">
             {['Personal Loan', 'Home Loan', 'Business Loan', 'Education Loan', 'Vehicle Loan'].map(item => (
               <li key={item}><Link to="/services" className="hover:text-primary-400 transition-colors">{item}</Link></li>
@@ -57,7 +57,7 @@ const Footer = () => (
           <ul className="space-y-3 text-sm">
             <li className="flex items-start gap-2"><FiMapPin className="mt-0.5 text-primary-400 shrink-0" /><span>123, Finance Street, Pune, Maharashtra – 411001</span></li>
             <li className="flex items-center gap-2"><FiPhone className="text-primary-400 shrink-0" /><a href="tel:+91 9112223630" className="hover:text-primary-400">+91 91122 23630</a></li>
-            <li className="flex items-center gap-2"><FiMail className="text-primary-400 shrink-0" /><a href="mailto:loans@darshanbarter.com" className="hover:text-primary-400">loans@darshanbarter.com</a></li>
+            <li className="flex items-center gap-2"><FiMail className="text-primary-400 shrink-0" /><a href="info@dbfincorp.com" className="hover:text-primary-400">info@dbfincorp.com</a></li>
           </ul>
         </div>
       </div>
